@@ -1,0 +1,124 @@
+{
+  "data": [
+    {
+      "REQUETE_DELETE": null,
+      "numLigne": "235",
+      "MCO_LIB": "SOINS DE SUITE ET DE REEDUCATION (SSR)",
+      "MCO_CODE": "S",
+      "EXISTE": "0",
+      "ID_MCO_DCSE": null,
+      "ID_MCO": "7",
+      "ID_ORG_DCSE": "69",
+      "REQUETE_INSERT": "INSERT INTO MCO_DCSE (ID_MCO_DCSE, ID_DCSE, ID_MCO, ID_ORG_DCSE) values( ID_MCO_DCSE.nextval, null, 7, 69)",
+      "ID_DCSE": "NOE"
+    },
+    {
+      "REQUETE_DELETE": null,
+      "numLigne": "236",
+      "MCO_LIB": "SOINS DE SUITE ET DE REEDUCATION (SSR)",
+      "MCO_CODE": "S",
+      "EXISTE": "0",
+      "ID_MCO_DCSE": null,
+      "ID_MCO": "7",
+      "ID_ORG_DCSE": "70",
+      "REQUETE_INSERT": "INSERT INTO MCO_DCSE (ID_MCO_DCSE, ID_DCSE, ID_MCO, ID_ORG_DCSE) values( ID_MCO_DCSE.nextval, null, 7, 70)",
+      "ID_DCSE": "NOE"
+    },
+    {
+      "REQUETE_DELETE": null,
+      "numLigne": "237",
+      "MCO_LIB": "SOINS DE SUITE ET DE REEDUCATION (SSR)",
+      "MCO_CODE": "S",
+      "EXISTE": "0",
+      "ID_MCO_DCSE": null,
+      "ID_MCO": "7",
+      "ID_ORG_DCSE": "71",
+      "REQUETE_INSERT": "INSERT INTO MCO_DCSE (ID_MCO_DCSE, ID_DCSE, ID_MCO, ID_ORG_DCSE) values( ID_MCO_DCSE.nextval, null, 7, 71)",
+      "ID_DCSE": "NOE"
+    },
+    {
+      "REQUETE_DELETE": "DELETE from MCO_DCSE where ID_MCO_DCSE = 1029",
+      "numLigne": "228",
+      "MCO_LIB": "MEDECINE",
+      "MCO_CODE": "M",
+      "EXISTE": "1",
+      "ID_MCO_DCSE": "1029",
+      "ID_MCO": "1",
+      "ID_ORG_DCSE": "95",
+      "REQUETE_INSERT": "INSERT INTO MCO_DCSE (ID_MCO_DCSE, ID_DCSE, ID_MCO, ID_ORG_DCSE) values( ID_MCO_DCSE.nextval, null, 1, 95)",
+      "ID_DCSE": "NOE"
+    },
+    {
+      "REQUETE_DELETE": "DELETE from MCO_DCSE where ID_MCO_DCSE = 1030",
+      "numLigne": "229",
+      "MCO_LIB": "MEDECINE",
+      "MCO_CODE": "M",
+      "EXISTE": "1",
+      "ID_MCO_DCSE": "1030",
+      "ID_MCO": "1",
+      "ID_ORG_DCSE": "96",
+      "REQUETE_INSERT": "INSERT INTO MCO_DCSE (ID_MCO_DCSE, ID_DCSE, ID_MCO, ID_ORG_DCSE) values( ID_MCO_DCSE.nextval, null, 1, 96)",
+      "ID_DCSE": "NOE"
+    },
+    {
+      "REQUETE_DELETE": "DELETE from MCO_DCSE where ID_MCO_DCSE = 1031",
+      "numLigne": "230",
+      "MCO_LIB": "MEDECINE",
+      "MCO_CODE": "M",
+      "EXISTE": "1",
+      "ID_MCO_DCSE": "1031",
+      "ID_MCO": "1",
+      "ID_ORG_DCSE": "97",
+      "REQUETE_INSERT": "INSERT INTO MCO_DCSE (ID_MCO_DCSE, ID_DCSE, ID_MCO, ID_ORG_DCSE) values( ID_MCO_DCSE.nextval, null, 1, 97)",
+      "ID_DCSE": "NOE"
+    },
+    {
+      "REQUETE_DELETE": "DELETE from MCO_DCSE where ID_MCO_DCSE = 1032",
+      "numLigne": "231",
+      "MCO_LIB": "MEDECINE",
+      "MCO_CODE": "M",
+      "EXISTE": "1",
+      "ID_MCO_DCSE": "1032",
+      "ID_MCO": "1",
+      "ID_ORG_DCSE": "98",
+      "REQUETE_INSERT": "INSERT INTO MCO_DCSE (ID_MCO_DCSE, ID_DCSE, ID_MCO, ID_ORG_DCSE) values( ID_MCO_DCSE.nextval, null, 1, 98)",
+      "ID_DCSE": "NOE"
+    },
+    {
+      "REQUETE_DELETE": "DELETE from MCO_DCSE where ID_MCO_DCSE = 2241",
+      "numLigne": "232",
+      "MCO_LIB": "SOINS DE SUITE ET DE REEDUCATION (SSR)",
+      "MCO_CODE": "S",
+      "EXISTE": "1",
+      "ID_MCO_DCSE": "2241",
+      "ID_MCO": "7",
+      "ID_ORG_DCSE": "101",
+      "REQUETE_INSERT": "INSERT INTO MCO_DCSE (ID_MCO_DCSE, ID_DCSE, ID_MCO, ID_ORG_DCSE) values( ID_MCO_DCSE.nextval, null, 7, 101)",
+      "ID_DCSE": "NOE"
+    },
+    {
+      "REQUETE_DELETE": "DELETE from MCO_DCSE where ID_MCO_DCSE = 2242",
+      "numLigne": "233",
+      "MCO_LIB": "SOINS DE SUITE ET DE REEDUCATION (SSR)",
+      "MCO_CODE": "S",
+      "EXISTE": "1",
+      "ID_MCO_DCSE": "2242",
+      "ID_MCO": "7",
+      "ID_ORG_DCSE": "100",
+      "REQUETE_INSERT": "INSERT INTO MCO_DCSE (ID_MCO_DCSE, ID_DCSE, ID_MCO, ID_ORG_DCSE) values( ID_MCO_DCSE.nextval, null, 7, 100)",
+      "ID_DCSE": "NOE"
+    },
+    {
+      "REQUETE_DELETE": "DELETE from MCO_DCSE where ID_MCO_DCSE = 2243",
+      "numLigne": "234",
+      "MCO_LIB": "SOINS DE SUITE ET DE REEDUCATION (SSR)",
+      "MCO_CODE": "S",
+      "EXISTE": "1",
+      "ID_MCO_DCSE": "2243",
+      "ID_MCO": "7",
+      "ID_ORG_DCSE": "99",
+      "REQUETE_INSERT": "INSERT INTO MCO_DCSE (ID_MCO_DCSE, ID_DCSE, ID_MCO, ID_ORG_DCSE) values( ID_MCO_DCSE.nextval, null, 7, 99)",
+      "ID_DCSE": "NOE"
+    }
+  ]
+}

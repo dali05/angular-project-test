@@ -1,0 +1,31 @@
+<!--ngNativeValidate-->
+
+<h3>Todo Form</h3>
+<!--<form #myForm="ngForm">-->
+  <!--<input type="email"  name="email" ngModel #email="ngModel" (change)="log(email)" pattern="[A-Za-z]{3}"><br>-->
+  <!--<div *ngIf="email.invalid" style="color: red;">email no valid</div>-->
+  <!--<input type="text" required name="name" ngModel #name="ngModel" (change)="log(name)"><br>-->
+  <!--<input type="submit" [disabled]="name.invalid">-->
+
+  <!--<pre>{{myForm.form.invalid | json}}</pre>-->
+<!--</form>-->
+
+
+<!--<form [formGroup]="etudiantForm">-->
+  <!--name: <input type="text" formControlName="name"><br>-->
+  <!--email: <input type="email" formControlName="email"><br>-->
+
+  <!--<input type="submit" [disabled]="name.invalid">-->
+
+  <!--<pre>{{myForm.form.invalid | json}}</pre>-->
+<!--</form>-->
+
+
+<form [formGroup]="etudiantForm" (ngSubmit)="onSubmit()">
+name: <input  formControlName="name"><br>
+email: <input  formControlName="email"><br>
+  <div *ngIf="f.errors && email.errors.pattern">
+    email name not valid.
+  </div>
+  <input type="submit" [disabled]="etudiantForm.errors">
+</form>

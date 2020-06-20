@@ -1,0 +1,9 @@
+<ngx-select
+  [formControl]="selectControl"
+  [allowClear]="true"
+  [items]="selectItems"
+  (select)="fn()"
+  optionValueField="optionId"
+  optionTextField="optionTitle"
+  placeholder="Select...">
+</ngx-select>

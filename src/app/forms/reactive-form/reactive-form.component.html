@@ -1,0 +1,46 @@
+<h3>#Reactive Form</h3>
+<p *ngIf="isValidFormSubmitted && userForm.pristine" [ngClass] = "'success'">
+    Form submitted successfully.
+</p>
+<form [formGroup]="userForm" (ngSubmit)="onFormSubmit()" autocomplete="off">
+  <div>
+    <label for="fullName">Full Name</label>
+    <input id="fullName" formControlName="fullName" type="text" (blur)="logKeyValue()"><br>
+    <span>
+      {{formErrors.fullName}}
+    </span><br>
+    <div formGroupName="emailGroup">
+      <div>
+        <label for="email">Email</label>
+        <input id="email" formControlName="email" type="text"><br>
+        <span *ngIf="formErrors.email"> {{formErrors.email}}</span>
+      </div>
+      <div>
+        <label for="confirmEmail">confirmEmail</label>
+        <input id="confirmEmail" formControlName="confirmEmail" type="text"><br>
+        <span *ngIf="formErrors.email || formErrors.emailGroup"> {{formErrors.confirmEmail}} {{formErrors.emailGroup}}</span>
+      </div>
+    </div>
+    </div>
+
+  <div formGroupName="skills">
+    <div class="form-group">
+      <label>Skill</label>
+      <input type="text" id="skillName" formControlName="skillName"><br>
+      <label > experience in years</label>
+      <input type="text" formControlName="experienceInYears"><br>
+      <span>
+      {{formErrors.experienceInYears}}
+    </span><br>
+      <div class="form-group">
+        <label>Proficiency</label>
+        <input type="radio" value="beginner" formControlName="proficiency"> Beginner
+        <input type="radio" value="intermediate" formControlName="proficiency"> intermediate
+        <input type="radio" value="advanced" formControlName="proficiency"> advanced
+      </div>
+    </div>
+  </div>
+				<button >Submit</button>
+        <button  detectUnsavedChanges  [currentForm]="userForm"   >Annuler</button>
+</form>
+

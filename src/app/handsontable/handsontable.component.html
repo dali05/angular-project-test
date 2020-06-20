@@ -1,0 +1,28 @@
+<div class="container">
+  tarif <input name="tarif" [(ngModel)]="tarif">
+  combi <input name="option" [(ngModel)]="combi">
+  option <input name="option" [(ngModel)]="option">
+  <button (click)="ShowXLS()">Show XLS</button>
+</div>
+
+
+<div *ngIf="showXls">
+  <hot-table [data]="data"
+             (afterChange)="afterChange($event)"
+             [colHeaders]="colHeaders"
+             [columns]="columns"
+             [options]="options"
+             [colWidths]="colWidths">
+  </hot-table>
+</div>
+
+
+
+
+
+<button (click)="exportAsXLSX()"><i class="fa fa-file-excel-o" style="font-size:48px;color:blue"></i></button>
+
+
+<div *ngFor="let item of data">
+  {{ item |json}}<br>
+</div>
