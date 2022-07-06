@@ -36,7 +36,7 @@
     "jquery-jcrop": "0.9.13",
     "jquery-knob": "1.2.11",
     "jquery-ui": "^1.12.1",
-    "jquery-validation": "1.18.0",
+    "jquery-validation": "1.19.5",
     "jquery.maskedinput": "1.4.1",
     "ng2-handsontable": "^2.1.0-rc.3",
     "ngx-select-ex": "^3.6.10",
