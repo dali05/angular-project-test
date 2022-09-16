@@ -21,7 +21,7 @@
     "@angular/platform-browser-dynamic": "~7.2.0",
     "@angular/router": "~7.2.0",
     "@grapecity/wijmo.angular2.all": "5.20192.624-rc",
-    "bootstrap": "3.3.7",
+    "bootstrap": "3.4.1",
     "bootstrap-colorpicker": "2.5.2",
     "bootstrap-duallistbox": "3.0.6",
     "bootstrap-markdown": "2.10.0",
